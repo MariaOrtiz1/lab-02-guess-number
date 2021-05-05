@@ -38,6 +38,7 @@ mushroomButtonDisplay.addEventListener('click', () => {
     }
 
     if (remainingGuesses === 0) {
+        totalPlays++;
         feedbackDisplay.textContent = 'We stole your name! You can play again to win it back! Hehehe!';
         resetButtonDisplay.classList.toggle('hiding');
     }
