@@ -1,0 +1,25 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.overall-stuff{
+    background-image: url('https://www.aviewturf.net.au/wp-content/uploads/2019/06/lawn.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hiding{
+    display: none;
+}
