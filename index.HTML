@@ -8,16 +8,35 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body class="overall-stuff">
-        Test test test
-        <section>
-            <button id="playButton">mushrrom</button>
-            <button id="resetButton" class='hiding'>reset</button>
-            <div id="feedback"></div>
-            <div id="remainingGuesses"></div>
-            <div id="totalWins"></div>
-            <div id="totalPlays"></div>
-            <input id="guessBox" placeholder="What is your guess?"/>
-        </section>
+        <article class="top-text">
+            <p> &#127812; You stumble upon an odd looking circle in the grassy field! &#127812;
+                <br> &#127812; Taking a closer look at the peculiar shape, you step in the circle to find a fairy grinning back at you! &#127812;
+                <br> &#127812; "Hehehe, why hello there! Nice to meet you!" Snickering, the fairy looks at you standing within their circle of mushrooms. &#127812;
+                <br> &#127812; "Well well, looks like you stepped right in my trap! Now you have to play with me! &#127812;
+                 <br> &#127812; I'll give you five tries to guess the number I am thinking about between 1-20! Very simple I promise! &#127812;
+                 <br> &#127812; If <em>you</em> win you can leave! If <em>I</em> win, you have to continue playing with me forever and I get to take your name! &#127812;
+                 <br> &#127812; <em><strong>THIS IS GOING TO BE SO MUCH FUN!</strong></em>" &#127812;
+            </p>
+        </article>
+        <div class="orangize">
+            <container class="formatting">
+            <img src="assets/fairyRing.png" class="mushroom-ring">
+                <section class="important-contant">
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <div id="totalWins"></div>
+                    <br> 
+                    <div id="totalPlays"></div>
+                    <button id="playButton"><img src="assets/MushroomButtonDrawing.png" height="200px" width="200px"></button>
+                        <br>
+                    <button id="resetButton" class="hiding">reset</button>
+                </container>
+                    <div id="feedback"></div>
+                    <br>
+                    <div id="remainingGuesses"></div>
+                    <br>
+                    <input id="guessBox" placeholder="Pssst! Click the mushroom!"/>
+                </section>
+        </div>
         <script type="module" src='./app.js'></script>
         <script type="module" src='./utils.js'></script>
     </body>

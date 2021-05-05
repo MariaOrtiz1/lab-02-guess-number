@@ -33,7 +33,7 @@ mushroomButtonDisplay.addEventListener('click', () => {
     }
     else if (compareGuess(Number(guessBoxInput.value) , Number(targetNumber)) === +1) {
         remainingGuesses--;
-        feedbackDisplay.textContent = 'Too hight silly, hehehe!';
+        feedbackDisplay.textContent = 'Too high silly, hehehe!';
         remainingGuessesDisplay.textContent = `You have ${remainingGuesses} tries left! Hehehe!`;
     }
 

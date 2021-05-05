@@ -12,14 +12,75 @@ body, html {
 .overall-stuff{
     background-image: url('https://www.aviewturf.net.au/wp-content/uploads/2019/06/lawn.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
-    height: auto;
-    width: auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
 }
 
 .hiding{
     display: none;
+}
+
+.important-contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orangize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#playButton{
+    height:200px;
+    width: 200px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    outline:none;
+}
+
+.top-text{
+    align-items: center;
+    text-align: center;
+    background-color: #900C3F;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+#guessBox{
+    background-color: #900C3F;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+#feedback , #remainingGuesses , #totalWins , #totalPlays{
+    background-color: #900C3F;
+    color: white;
+    border-radius: 23px;
+    opacity: 0.8;
+}
+
+.formatting{
+    position: relative;
+}
+
+.mushroom-ring{
+    height: 600px; 
+    width: 850px;
+}
+
+.important-contant{
+    position: relative;
+    bottom: 513px;
+    right: 0px;
 }
